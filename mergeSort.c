@@ -78,7 +78,7 @@ int main(int argc, char * argv[])
 		x++;
 	}
 	clock_t begin = clock();//initial mergeSort
-	mergeSort(vector,0,MAX);
+	mergeSort(vector,0,MAX-1);
 	clock_t end = clock();//final mergeSort
 	ptr = fopen("MergeSortInOrder.txt","w");
 	for(x = 0;x<MAX;x++)
